@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS-Task4</title>
+  <style>
+.sidebar {
+    width: 200px;
+    position: fixed;
+    left: 0;
+    outline: 1px solid black;
+    height: 400px;
+    margin-left: 50px;
+    padding-right: 600px;
+    padding-top: 15px;
+    
+}
+.sidebar h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* Style for the sidebar paragraph */
+.sidebar p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+/* Style for the navigation buttons */
+.nav-button {
+    display: block;
+    /* width: 100%; */
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    transition: 0.5s;
+    padding-left: 0;
+    border-radius: 3px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    margin-top: 10px;
+    /* margin-left: 50px; */
+}
+
+
+#b1{
+  color:rgb(18, 154, 74);
+  background-color: rgb(18, 154, 74);
+  width: 50px;
+  height: 50px;
+}
+#b1:hover{
+      width:90px;
+      color: white;
+      font-size: 20px;
+      
+}
+#b2:hover{
+      width:90px;
+      color: white;
+      font-size: 20px;
+      
+}
+#b3:hover{
+      width:90px;
+      color: white;
+      font-size: 20px;
+      
+}
+#b4:hover{
+      width:90px;
+      color: white;
+      font-size: 20px;
+      
+}
+#b2{
+ color:rgb(32, 146, 239);
+  background-color: rgb(32, 146, 239);
+  width: 45px;
+  height: 45px;
+  
+}
+#b3{
+ color: rgb(235, 35, 35);
+ background-color: rgb(235, 35, 35);
+ width: 45px;
+ height: 45px;
+ 
+}
+#b4{
+ color:rgb(34, 30, 30);
+ background-color:rgb(34, 30, 30);
+ width: 45px;
+ height: 45px;
+ 
+}
+  </style>
+</head>
+<body>
+ `
+    <div class="sidebar">
+      
+        <button class="nav-button" id="b1">Home</button>
+        <button class="nav-button" id="b2">Java</button>
+        <button class="nav-button"id="b3">HTML</button>
+        <button class="nav-button" id="b4">CSS</button>
+    </div>
+    <div style="margin-left: 150px; padding-top: 5px;">
+      <h1>Hoverable Sidenav Buttons</h1>
+      <p>Hover over the buttons in the left side navigation to open them.</p>
+    </div>
+ 
+
+</body>
+</html>
